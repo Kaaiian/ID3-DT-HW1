@@ -13,8 +13,8 @@ from collections import Counter
 
 # %%
 # read in data to train and test tree
-df_test = pd.read_csv(r'Datasets_in_homework_1\train.csv', header=None)
-df_train = pd.read_csv(r'Datasets_in_homework_1\test.csv', header=None)
+df_test = pd.read_csv(r'train.csv', header=None)
+df_train = pd.read_csv(r'test.csv', header=None)
 
 # %%
 class ID3():
